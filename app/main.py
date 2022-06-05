@@ -77,5 +77,5 @@ CORS(app)
 # setup resource
 api.add_resource(Test, "/api/predict", methods=["GET", "POST"])
 
-# if __name__ == "__main__":
-#     app.run()
+if __name__ == "__main__":
+    app.run()
